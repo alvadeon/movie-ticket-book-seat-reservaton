@@ -1,0 +1,116 @@
+<br>
+<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<div id="myCarousel" class="carousel slide" data-ride="carousel"> 
+  <!-- Indicators -->
+  
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+	 <li data-target="#myCarousel" data-slide-to="3"></li>
+  </ol>
+  
+  <div class="carousel-inner">
+    <div class="item active"> <center><img src="kannada movie/samrat.avif" style="width:100%;height:450px;" alt="First slide"></center>
+      <div class="container">
+        <div class="carousel-caption">
+          <h1></h1>
+          <p></p>
+          
+		  <?php
+			if(isset($_SESSION["customerid"]))
+			{
+			?>				
+			
+			<?php
+			}
+			else
+			{
+			?>
+				<a href="#" class="wthree-btn btn-6 scroll" data-toggle="modal" data-target="#myModal">Login <span></span></a>	
+				<a href="#" class="wthree-btn btn-6 scroll" data-toggle="modal" data-target="#myModal2">Register Now <span></span></a>
+			<?php
+			}
+			?>
+		  
+        </div>
+      </div>
+    </div>
+    <div class="item"> <center><img src="kannada movie/sliders.avif" style="width:100%;height:450px;" data-src="" alt="Second  slide"></center>
+      <div class="container">
+        <div class="carousel-caption">
+          <h1></h1>
+          <p> </p>
+       
+		  
+		  <?php
+			if(isset($_SESSION["customerid"]))
+			{
+			?>				
+			<a href="account.php"  ></a>	
+			<?php
+			}
+			else
+			{
+			?>
+				<a href="#" class="wthree-btn btn-6 scroll" data-toggle="modal" data-target="#myModal">Login <span></span></a>	
+				<a href="#" class="wthree-btn btn-6 scroll" data-toggle="modal" data-target="#myModal2">Register Now <span></span></a>
+			<?php
+			}
+			?>
+		  
+        </div>
+      </div>
+    </div>
+    <div class="item"> <center><img src="kannada movie/slider1.avif" style="width:100%;height:450px;" data-src="" alt="Third slide"></center>
+      <div class="container">
+        <div class="carousel-caption">
+          <h1></h1>
+          <p></p>
+         
+		  <?php
+			if(isset($_SESSION["customerid"]))
+			{
+			?>				
+			<a href="account.php"  ></a>	
+			<?php
+			}
+			else
+			{
+			?>
+				<a href="#" class="wthree-btn btn-6 scroll" data-toggle="modal" data-target="#myModal">Login <span></span></a>	
+				<a href="#" class="wthree-btn btn-6 scroll" data-toggle="modal" data-target="#myModal2">Register Now <span></span></a>
+			<?php
+			}
+			?>
+		  
+        </div>
+      </div>
+    </div>
+	
+	 <div class="item"> <center><img src="kannada movie/slider6.avif" style="width:100%;height:450px;" data-src="" alt="Third slide"></center>
+      <div class="container">
+        <div class="carousel-caption">
+          <h1></h1>
+          <p></p>
+         
+		  <?php
+			if(isset($_SESSION["customerid"]))
+			{
+			?>				
+			<a href="account.php"  ></a>	
+			<?php
+			}
+			else
+			{
+			?>
+				<a href="#" class="wthree-btn btn-6 scroll" data-toggle="modal" data-target="#myModal">Login <span></span></a>	
+				<a href="#" class="wthree-btn btn-6 scroll" data-toggle="modal" data-target="#myModal2">Register Now <span></span></a>
+			<?php
+			}
+			?>
+		  
+        </div>
+      </div>
+    </div>
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a> </div>
